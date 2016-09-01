@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-433Receiver",
+  "version": "0.0.1",
+  "description": "433MHZ Receiver Plugin for Homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/example/homebridge.git"
+  },
+  "bugs": {
+    "url": "http://github.com/example/homebridge/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
+
