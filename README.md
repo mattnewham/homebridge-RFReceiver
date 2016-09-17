@@ -21,3 +21,9 @@ To use, install the code into your plugins folder and use the following config:
         "sensor_type": "m"
     }
 ```
+
+Name is the name you want the sensor to show up in Homekit
+
+RFCode is the code that is emitted from your sensor on motion detection, opening or whatever
+
+Sensor type currently only works with m (motion). c (contact) code needs to be implemented, but I dont have any need for that right now.
