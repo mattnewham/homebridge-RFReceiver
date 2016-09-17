@@ -8,7 +8,15 @@ The code simply sends an event when a code is received, and is compared to the c
 
 There are some issues with the code. I need to work out why sometimes my timers dont work.
 
-To use, install the code into your plugins folder and use the following config:
+To use, install the code into your plugins folder.
+
+The plugin requires you to have a working install of rpi433:
+
+https://www.npmjs.com/package/rpi-433
+
+Once you are able to run the example code from that project, and can sucessfully receive an RF code from a device, you need to put the rpi-433 code in an accesible place so that we can import the Sniffer function. I will package this up at some point (when its all working) but for now it is a manual process.
+
+Then use the following config:
 
 ```
 "accessories": [
