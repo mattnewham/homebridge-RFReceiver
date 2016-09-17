@@ -10,7 +10,7 @@ There are some issues with the code. I need to work out why sometimes my timers 
 
 To use, install the code into your plugins folder and use the following config:
 
-'''
+```
 "accessories": [
     {
         "accessory": "homebridge-RFReceiver.RFReceiver",
@@ -20,4 +20,4 @@ To use, install the code into your plugins folder and use the following config:
         "inverse": "false",
         "sensor_type": "m"
     }
-'''
+```
